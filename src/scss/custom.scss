@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+  --vermelho-base: #b20000;
+  --vermelho-escuro-10: #7e0000;
+  --azul-base: #005c6d;
+  --primario-titulos-hover: #004854;
+  --azul-destaque-base: #00c1cf;
+  --secundario-hover: #00d8e8;
+
+  --verde-base: #a0c340;
+  --blueberry-base: #4c7eff;
+  --crayola-base: #ffc24c;
+  --violeta-base: #8a29e6;
+  --coral-base: #ff4c4d;
+  --pink-base: #ff4ca2;
+}
+
+// Defina as variáveis antes de importar o Bootstrap
+$theme-colors: (
+  'primary': #004854,
+  'secondary': #7e0000,
+  'success': #8bc34a,
+  'warning': #7e0000,
+  'danger': #b20000,
+  'info': #42a5f5,
+  'light': #ffffff,
+  'dark': #2a496a,
+);
+
+// Importe o Bootstrap com as variáveis personalizadas
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  font-family: 'Roboto';
+}
+
+.roboto-slab {
+  font-family: 'Roboto Slab';
+}
